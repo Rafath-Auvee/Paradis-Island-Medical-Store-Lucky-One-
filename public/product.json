@@ -1,0 +1,61 @@
+[{
+  "id": 1,
+  "name": "MBM 9 Spleen Pancreas",
+  "price": 2608.17,
+  "picture": "https://cdn.pixabay.com/photo/2014/02/03/11/51/medicine-257349_960_720.jpg"
+}, {
+  "id": 2,
+  "name": "Atenolol",
+  "price": 2769.88,
+  "picture": "https://cdn.pixabay.com/photo/2015/11/30/19/08/drug-1070943_960_720.jpg"
+}, {
+  "id": 3,
+  "name": "Penicillium notatum",
+  "price": 1222.31,
+  "picture": "https://images.unsplash.com/photo-1562243061-204550d8a2c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+}, {
+  "id": 4,
+  "name": "Chlo Tuss",
+  "price": 1192.92,
+  "picture": "https://images.unsplash.com/photo-1573883429746-084be9b5cfca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+}, {
+  "id": 5,
+  "name": "CareOne Arthritis Pain Relief",
+  "price": 4758.09,
+  "picture": "https://images.unsplash.com/photo-1573883430438-e08d0b542c5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+}, {
+  "id": 6,
+  "name": "Virx",
+  "price": 1103.61,
+  "picture": "https://images.unsplash.com/photo-1574043948184-144f2ef80fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+}, {
+  "id": 7,
+  "name": "Zaroxolyn",
+  "price": 4381.08,
+  "picture": "https://cdn.pixabay.com/photo/2021/03/27/05/10/pills-6127501_960_720.jpg"
+}, {
+  "id": 8,
+  "name": "Hydrocodone Bitartrate and Acetaminophen",
+  "price": 4629.88,
+  "picture": "https://cdn.pixabay.com/photo/2018/01/08/09/46/pill-3069032_960_720.jpg"
+}, {
+  "id": 9,
+  "name": "Treatment Set TS332344",
+  "price": 4998.7,
+  "picture": "https://cdn.pixabay.com/photo/2014/07/05/15/16/pills-384846_960_720.jpg"
+}, {
+  "id": 10,
+  "name": "ALNUS INCANA SSP RUGOSA POLLEN",
+  "price": 3077.16,
+  "picture": "https://cdn.pixabay.com/photo/2018/12/21/08/06/about-3887433_960_720.jpg"
+}, {
+  "id": 11,
+  "name": "Nitrogen",
+  "price": 1490.12,
+  "picture": "https://images.unsplash.com/photo-1550572017-26b5655c1e8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+}, {
+  "id": 12,
+  "name": "Sertraline Hydrochloride",
+  "price": 2417.94,
+  "picture": "https://images.unsplash.com/photo-1575997038999-5be1cffe6c5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1116&q=80"
+}]
