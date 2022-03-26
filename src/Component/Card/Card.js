@@ -2,6 +2,9 @@ import React, {useState, useEffect} from 'react';
 import Product from "./../Product/Product";
 import './Card.css'
 import Cart from "./../Cart/Cart";
+
+import '../QA/QA.css'
+import QA from "./../QA/QA";
 const Card = () => {
   const [products, setProducts] = useState([])
   const [item, setItem] = useState([])
@@ -59,12 +62,17 @@ const Card = () => {
   return (
     <div>
         <div className="shop-container card">
-            <div className="products-container">
+            <div className="main-container">
+              <div className="products-container">
               {
                 products.map(product => <Product key={product.id} product={product} handleItem = {handleItem} />)
               }
+              </div>
+              <QA/>
             </div>
+            
             <div className="cart-container">
+              
               <Cart cart={item}></Cart>
 
               <div>
@@ -86,6 +94,7 @@ const Card = () => {
                 <button onClick={clearAll}>Clear All</button>
               </div>
             </div>
+            
         </div>
     </div>
   );
