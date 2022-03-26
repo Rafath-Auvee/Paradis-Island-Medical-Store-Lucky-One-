@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap');
+
+*
+{
+  font-family: 'Lato';
+  font-style: normal;
+}
+
 .navbar
 {
-  background-color: #201E1F;
+  background-color: #172242;
   height: 120px;
   display: flex;
   align-items: center;
@@ -15,7 +23,22 @@ nav
 nav h1
 {
   font-size: 2.5rem;
-  color: #FF4000;
+  color: #89a2ad;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 1100px) {
+  nav h1
+  {
+    font-size: 2rem;
+    /* grid-template-columns: repeat(2,1fr); */
+  }
+}
+@media screen and (max-width: 700px) {
+  nav h1
+  {
+    font-size: 1.3rem;
+    /* grid-template-columns: repeat(1,1fr); */
+  }
 }

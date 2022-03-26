@@ -1,0 +1,30 @@
+.item
+{
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.items h1
+{
+  color: #172242;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.item p
+{
+  margin-left: 15px;
+  font-size: 15px;
+}
+.item img 
+{
+  width: 20%;
+  height: 50px;
+  border-radius: 50%;
+
+}

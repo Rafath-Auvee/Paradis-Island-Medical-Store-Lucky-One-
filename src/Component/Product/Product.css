@@ -15,10 +15,15 @@ p
 
 .product{
   width: 300px;
-  height: 508px;
+  height: 430px;
   border: 1px solid #95A0A7;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   position: relative;
+
+  border-radius: 17px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  32px 32px 64px #bcbcbc,
+               -32px -32px 64px #ffffff;
  
 }
 
@@ -50,7 +55,7 @@ p
 .btn-cart
 {
   width: 100%;
-  background: #FFE0B3;
+  background: #5B86D8;
   border: none;
   border-radius: 0px 0px 8px 8px;
   transition: 0.5s;
@@ -63,7 +68,7 @@ p
 
 .btn-cart:hover
 {
-  background-color: orangered;
+  background-color: #234182;
   transition: 0.5s;
   color: aliceblue;
 }
