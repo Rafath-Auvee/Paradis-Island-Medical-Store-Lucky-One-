@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap');
+
+*{
+  font-family: 'Lato';
+  font-style: normal;
+}
+
 .shop-container
 {
   display: grid;
@@ -16,10 +23,21 @@
 {
   background: rgba(35, 65, 130, 0.3);
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1250px) {
+  .card
+  {
+    display: flex;
+    flex-direction: column;
+    
+  }
   .products-container
   {
+    order: 1;
     grid-template-columns: repeat(2,1fr);
+  }
+  .cart-container
+  {
+    order: 0;
   }
 }
 @media screen and (max-width: 700px) {
@@ -38,6 +56,55 @@
 }
 .buttons button
 {
-  width: 50%;
+  width: 80%;
   margin-bottom: 10px;
+  font-size: 18px;
+  color: #172242;
+  font-weight: bolder;
+  background: none;
+  border: 2px solid #172242;
+  border-radius: 8px;
+  padding: 15px 10px;
+  margin: 10px 0px;
+  transition: 0.5s;
 }
+
+.buttons button:hover
+{
+  color: #829aa6;;
+  background: #172242;
+  transition: 0.5s;
+}
+
+.choosen
+{
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.choosen h3
+{
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.choosen img 
+{
+  width: 20%;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.choose-heading
+{
+  margin-bottom: 30px;
+  color: #172242;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+

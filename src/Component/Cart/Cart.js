@@ -5,7 +5,7 @@ const Cart = (props) => {
   return (
     <div className="items">
       <h1>Seletecd Items</h1>
-      <div>
+      <div className="item-container">
         {
           cart.map((item) => (
             <div className="item" key={item.id} cart={cart}>
